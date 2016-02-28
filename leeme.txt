@@ -1,0 +1,5 @@
+compila de la siguiente manera:
+1.-bison -d t4.y;
+2.-flex t4.lex
+3.-gcc t4.tab.c lex.yy.c -ll -w
+4.-./a.out < entrada.txt 

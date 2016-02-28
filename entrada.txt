@@ -1,0 +1,42 @@
+float y;
+float q;
+float p;
+float m;
+
+int x;
+int a;
+int i;
+int b;
+int v
+
+begin 
+	y := 3 + 4;
+	p := 2 * 10;
+	x := 0 + 1;
+	m := 0 + 1;
+	i := 0 + 1;
+
+	while a < 5
+	do 
+		begin
+			x := x * 2;
+			a := a + 1
+		end;
+
+	if 1 > 2 
+	then
+		begin	
+			q := y + p;
+			m := q + y
+		end;
+
+	repeat
+		i := i + 1
+	until 
+		i > 10;
+
+	print x;
+
+	read v
+
+end
